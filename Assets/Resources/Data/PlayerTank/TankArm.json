@@ -1,0 +1,87 @@
+﻿{ 
+  "TankArm": 
+  [
+      {
+      "id": 1,
+      "ArmName": "风暴能源电池",
+      "ArmOwner": 1,
+      "isHeavyArm": false,
+      "ArmIntroduction": "缩短提升风暴状态所需要的充能值",
+      "Num1": "85.0f",
+      "Num2": "-1"
+    },
+      {
+        "id": 2,
+        "ArmName": "强化的风暴装置",
+        "ArmOwner": 1,
+        "isHeavyArm": true,
+        "ArmIntroduction": "<color=red>重型设备</color>。风暴状态II不再退回风暴状态I，并且风暴状态II可以提升至风暴状态III，状态结束后退回风暴状态I",
+        "Num1": "-1",
+        "Num2": "-1"
+      },
+      {
+        "id": 3,
+        "ArmName": "风暴汲取装置",
+        "ArmOwner": 1,
+        "isHeavyArm": false,
+        "ArmIntroduction": "命中墙壁会略微增加充能值",
+        "Num1": "1.0f",
+        "Num2": "-1"
+      },
+      {
+        "id": 4,
+        "ArmName": "利树充能装置",
+        "ArmOwner": 2,
+        "isHeavyArm": false,
+        "ArmIntroduction": "护盾爆发所需要的破坏护盾数减少",
+        "Num1": 2,
+        "Num2": "-1"
+      },
+      {
+        "id": 5,
+        "ArmName": "利树修复设备",
+        "ArmOwner": 2,
+        "isHeavyArm": false,
+        "ArmIntroduction": "修复护盾所需要的时间减少",
+        "Num1": "2.5f",
+        "Num2": "-1"
+      },
+      {
+        "id": 6,
+        "ArmName": "护盾保护装置",
+        "ArmOwner": 2,
+        "isHeavyArm": true,
+        "ArmIntroduction": "<color=red>重型设备</color>。有一定几率使得受到护盾破坏立刻修复护盾",
+        "Num1": 50,
+        "Num2": "-1"
+      },
+      {
+        "id": 7,
+        "ArmName": "高能火药提纯器",
+        "ArmOwner": 3,
+        "isHeavyArm": false,
+        "ArmIntroduction": "使高能火药的装填更加迅速",
+        "Num1": "1.0f",
+        "Num2": "-1"
+      },
+      {
+        "id": 8,
+        "ArmName": "高能炸弹",
+        "ArmOwner": 3,
+        "isHeavyArm": false,
+        "ArmIntroduction": "使得刺剑炸弹的范围提升",
+        "Num1": 3,
+        "Num2": "-1"
+      },
+      {
+        "id": 9,
+        "ArmName": "高能护盾",
+        "ArmOwner": 3,
+        "isHeavyArm": false,
+        "ArmIntroduction": "每次消耗高能火药值都会获得护盾",
+        "Num1": "-1",
+        "Num2": "-1"
+      }
+  
+  ]
+}
